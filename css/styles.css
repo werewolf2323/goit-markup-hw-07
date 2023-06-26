@@ -537,13 +537,13 @@ img {
   background: var(--image-backround);
   padding: 100px 0;
 }
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
-}
-.footer-content {
+} */
+/* .footer-content {
   margin-right: 120px;
-}
+} */
 .logo-ft {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -566,7 +566,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-backround);
-  max-width: 264px;
+  width: 264px;
 }
 .footer-icon {
   fill: #f4f4fd;
@@ -578,7 +578,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--header-backround);
   margin-bottom: 16px;
 }
 .footer-scl-list {
@@ -603,9 +603,9 @@ img {
 .footer-scl-link:focus {
   background-color: var(--link-color);
 }
-.modal-footer {
+/* .modal-footer {
   margin-left: 80px;
-}
+} */
 .modal-footer-title {
   font-weight: 500;
   font-size: 16px;
@@ -615,14 +615,13 @@ img {
   margin-bottom: 16px;
 }
 
-.footer-form {
+/* .footer-form {
   display: flex;
   gap: 24px;
-}
+} */
 
 .footer-input {
-  width: 264px;
-  height: 40px;
+  padding: 8px 16px;
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -664,6 +663,94 @@ img {
 
 .footer-modal-icon {
   margin-left: 16px;
+}
+@media screen and (max-width: 767px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .paragraph-ft {
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .footer-scl-list {
+    justify-content: center;
+  }
+
+  .footer-scl {
+    margin-bottom: 72px;
+  }
+
+  .footer-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .footer-modal-btn {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1157px) {
+  .footer-content {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-content {
+    margin-right: 24px;
+  }
+
+  .footer-label {
+    margin-right: 24px;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-input {
+    width: 264px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .footer-container {
+    flex-wrap: wrap;
+    padding-left: 108px;
+    padding-right: 164px;
+  }
+
+  .footer-scl {
+    margin-bottom: 104px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .closing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-content {
+    margin-right: 120px;
+  }
+
+  .footer-scl {
+    margin-right: 80px;
+  }
 }
 
 /* MAIN PORTFOLIO */
