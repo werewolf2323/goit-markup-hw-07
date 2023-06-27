@@ -1062,21 +1062,22 @@ img {
   }
 }
 
-@media screen and (max-width: 1157px) {
+/* @media screen and (max-width: 1157px) {
   .footer-left-side {
     margin-bottom: 72px;
   }
-}
+} */
 
 @media screen and (min-width: 768px) {
   .footer-wrapper {
     display: flex;
     align-items: baseline;
+    gap: 24px;
   }
 
-  .footer-left-side {
+  /* .footer-left-side {
     margin-right: 24px;
-  }
+  } */
 
   .footer-form-label {
     margin-right: 24px;
