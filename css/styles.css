@@ -818,7 +818,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .team-members-cards > .container {
-    max-width: 268px;
+    max-width: 294px;
   }
 
   .team-member-card:not(:last-child) {
@@ -1096,8 +1096,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .footer-wrapper {
     flex-wrap: wrap;
-    padding-left: 108px;
-    padding-right: 164px;
+    width: 550px;
   }
 
   .footer-social-media-wrapper {
